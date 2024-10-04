@@ -16,22 +16,18 @@ function create_settings()
         default = "order.csv"
         help = "注文CSVパス"
         "--login", "-l"
-        arg_type = String
-        required = true
+        default = "loginpass"
         help = "ログインパスワード"
         "--trade", "-t"
-        arg_type = String
-        required = true
+        default = "tradepass"
         help = "トレードパスワード"
     end
     @add_arg_table! s["close"] begin
         "--login", "-l"
-        arg_type = String
-        required = true
+        default = "loginpass"
         help = "ログインパスワード"
         "--trade", "-t"
-        arg_type = String
-        required = true
+        default = "tradepass"
         help = "トレードパスワード"
     end
     s
