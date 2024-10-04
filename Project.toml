@@ -1,0 +1,13 @@
+name = "Aukabu"
+uuid = "fff08fdf-bd27-4cc0-8797-ef2bca2e4057"
+authors = ["dokudo91 <92647519+dokudo91@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON3 = "0f8b85d8-7281-11e9-16c2-39a750bddbf1"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
